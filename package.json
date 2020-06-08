@@ -4,7 +4,8 @@
   "description": "Launch node applications or executables at login (Mac, Windows, and Linux)",
   "main": "dist/index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "gulpBuild": "coffee gulpfile.coffee"
   },
   "engines": {
     "node": ">=4.0.0"
